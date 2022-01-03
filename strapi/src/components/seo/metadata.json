@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_seo_metadata",
+  "info": {
+    "displayName": "Page Metadata",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PageDescription": {
+      "type": "text"
+    }
+  }
+}

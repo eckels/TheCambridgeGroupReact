@@ -1,0 +1,39 @@
+/* Fonts */
+@font-face {
+    font-family: century-gothic;
+    src: url(fonts/century-gothic-regular.ttf);
+}
+@font-face {
+    font-family: century-gothic;
+    src: url(fonts/century-gothic-bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: century-gothic;
+    src: url(fonts/century-gothic-italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: century-gothic;
+    src: url(fonts/century-gothic-italic-bold.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.link-arrow:after, .link-arrow-white:after {
+    background: url(img/right-arrow-accent.svg) no-repeat center right;
+    background-size: contain;
+}
+
+.left-link-arrow:before, .left-link-arrow-white:before {
+    background: url(img/left-arrow-accent.svg) no-repeat center left;
+    background-size: contain;
+}
+
+.home-capabilities {
+    background-image: url(img/dots.png);
+}
+
+.connect-section {
+    background-image: url(img/dots.png);
+}
