@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 const ConnectSection = () => {
     return (
@@ -6,7 +7,7 @@ const ConnectSection = () => {
             <div className="section-content connect-section-content">
                 <h1>Connect</h1>
                 <p className="desc">We'd love to help you think through your growth challenges</p>
-                <a href="connect.html"><button>Get in touch</button></a>
+                <Link to="/connect"><button>Get in touch</button></Link>
             </div>
         </div>
     )

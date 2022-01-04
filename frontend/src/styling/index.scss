@@ -81,7 +81,7 @@
     }
 }
 
-.home-about {
+div.home-about {
     background-color: $primary-color-6;
     .home-about-content {
         h3 {
@@ -91,7 +91,7 @@
 }
 
 @media (max-width: 500px) {
-    .home-about {
+    div.home-about {
         .home-about-content {
             h3 {
                 font-size: 1.2em;
@@ -100,7 +100,7 @@
     }
 }
 
-.home-capabilities {
+div.home-capabilities {
     text-align: center;
     background-color: $white;
     //background-image: url(img/dots.png);
@@ -163,7 +163,7 @@
 }
 
 @media (max-width: 930px) {
-    .home-capabilities {
+    div.home-capabilities {
         .home-capabilities-content {
             .icon-grid-wrapper {
                 .icon-grid {
@@ -178,7 +178,7 @@
 }
 
 @media (max-width: 650px) {
-    .home-capabilities {
+    div.home-capabilities {
         .home-capabilities-content {
             .icon-grid-wrapper {
                 .icon-grid {
@@ -200,7 +200,7 @@
 }
 
 @media (max-width: 370px) {
-    .home-capabilities {
+    div.home-capabilities {
         .home-capabilities-content {
             .icon-grid-wrapper {
                 .icon-grid {
@@ -220,12 +220,12 @@
     }
 }
 
-.home-careers-wrapper {
+div.home-careers-wrapper {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.home-careers {
+div.home-careers {
     background-color: rgba($primary-color-2, 0.9);
     .home-careers-content {
         h1 {
@@ -290,7 +290,7 @@
 }
 
 @media (max-width: 1050px) {
-    .home-careers {
+    div.home-careers {
         .home-careers-content {
             .centered-wrapper {
                 .centered {
@@ -317,7 +317,7 @@
 }
 
 @media (max-width: 900px) {
-    .home-careers {
+    div.home-careers {
         .home-careers-content {
             .centered-wrapper {
                 .centered {
@@ -335,10 +335,10 @@
 }
 
 @media (max-width: 780px) {
-    .home-careers-wrapper {
+    div.home-careers-wrapper {
         background-image: none;
     }
-    .home-careers {
+    div.home-careers {
         background-color: $primary-color-6;
         .home-careers-content {
             h1 {
@@ -392,7 +392,7 @@
 }
 
 @media (max-width: 420px) {
-    .home-careers {
+    div.home-careers {
         .home-careers-content {
             .centered-wrapper {
                 .centered {

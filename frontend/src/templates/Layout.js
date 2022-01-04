@@ -5,7 +5,7 @@ import MobileNavigation from "../components/navigation/MobileNavigation"
 import Footer from "../components/footer/Footer"
 import FooterCode from "../components/FooterCode"
 
-import '../styling/index.css'
+import '../styling/Layout.css'
 
 const Layout = ({ navBool, children }) => {
     const [scrollBool, updateScrollBool] = useState(0);

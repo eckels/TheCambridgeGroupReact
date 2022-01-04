@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from "gatsby"
 
 import TCGLogoIcon from "../../img/tcg-logo-icon-color.png"
-import TCGLogoHz from "../../img/tcg-logo-hz-white.png"
+import TCGLogoHome from "../../img/tcg-logo-hz-white.png"
+import TCGLogoHeader from "../../img/tcg-logo-hz-color.png"
 
 const DesktopNavigation = ({ homepageBool, scrollBool }) => {
     let homeNav = (homepageBool == 'true') ? true : false;
@@ -42,7 +43,7 @@ const DesktopNavigation = ({ homepageBool, scrollBool }) => {
         <nav className={`desktop-nav ${(navTop == 1) ? headerClass : ''}`} id={headerId}>
             <div className="nav-wrap clearfix">
                 <Link to="/"><img src={TCGLogoIcon} className="logo" alt="The Cambridge Group Logo" /></Link>
-                <Link to="/"><img src={TCGLogoHz} className="logo-white" alt="The Cambridge Group Logo" /></Link>
+                <Link to="/"><img src={ (homeNav) ? TCGLogoHome : TCGLogoHeader } className="logo-white" alt="The Cambridge Group Logo" /></Link>
                 <div className="link-wrap">
                     <ul>
                         <li className="link-trigger">

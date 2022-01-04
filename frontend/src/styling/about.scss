@@ -6,7 +6,7 @@
 @import './components/sections';
 @import './components/people';
 
-.page-desc-about {
+div.page-desc-about {
     .page-desc-content-about {
         p {
             margin-bottom: 24px;
@@ -18,12 +18,12 @@
 }
 
 .award-section-wrapper {
-    background-image: url(../../img/bround6.jpg);
+    //background-image: url(../../img/bround6.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.award-section {
+div.award-section {
     background-color: rgba($primary-color-1, 0.9);
     padding-top: 18px;
     padding-bottom: 18px;
@@ -87,7 +87,7 @@
 }
 
 @media (max-width: 900px) {
-    .award-section {
+    div.award-section {
         .award-section-content {
             padding-top: 0;
             padding-bottom: 0;
@@ -102,10 +102,10 @@
 }
 
 @media (max-width: 650px) {
-    .award-section-wrapper {
+    div.award-section-wrapper {
         background-image: none;
     }
-    .award-section {
+    div.award-section {
         background-color: $white;
         .award-section-content {
             .award {
@@ -129,7 +129,7 @@
     }
 }
 
-.difference-section {
+div.difference-section {
     text-align: center;
     .difference-section-content {
         max-width: 1500px;
@@ -171,7 +171,7 @@
 }
 
 @media (max-width: 1200px) {
-    .difference-section {
+    div.difference-section {
         .difference-section-content {
             .step-wrapper {
                 display: flex;
@@ -193,7 +193,7 @@
 }
 
 @media (max-width: 650px) {
-    .difference-section {
+    div.difference-section {
         .difference-section-content {
             h1 {
                 margin-bottom: 24px;
@@ -218,7 +218,7 @@
 }
 
 
-.nielsen-section {
+div.nielsen-section {
     background-color: $primary-color-6;
     .nielsen-section-content {
         .grid-wrapper {
@@ -252,7 +252,7 @@
 }
 
 @media (max-width: 800px) {
-    .nielsen-section {
+    div.nielsen-section {
         .nielsen-section-content {
             .grid {
                 display: block;
@@ -276,7 +276,7 @@
 
 
 
-.book-section {
+div.book-section {
     text-align: center;
     background-color: $primary-color-2;
     .book-section-content {
@@ -287,7 +287,7 @@
     }
 }
 
-.our-team {
+div.our-team {
     h2 {
         margin-bottom: 12px;
     }
@@ -296,7 +296,7 @@
     }
 }
 
-.our-team-header-text {
+div.our-team-header-text {
     margin-top: 6px;
     width: 100%;
     margin-bottom: 36px !important;
